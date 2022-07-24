@@ -10,7 +10,8 @@
     "react-scripts": "4.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "server": "json-server db.json --watch --port=4000 --delay 3000"
   },
   "eslintConfig": {
